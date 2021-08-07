@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "ESNext",
+    "target": "ES6",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false
+  },
+  "include": [
+    "packages"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "packages/**/*.stories.tsx",
+    "packages/**/*.test.tsx"
+  ]
+}

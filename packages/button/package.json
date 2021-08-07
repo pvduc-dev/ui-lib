@@ -1,0 +1,22 @@
+{
+  "name": "@pvduc/button",
+  "version": "0.0.1",
+  "description": "Pv Duc UI component in React",
+  "author": "Pv Duc <pvduc.dev@gmail.com>",
+  "license": "Apache-2.0",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "dependencies": {
+    "@react-aria/button": "^3.3.1"
+  },
+  "devDependencies": {
+    "@react-types/button": "^3.3.1",
+    "@types/react": "^17.0.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@pvduc/button",
+  "name": "@pvduc/spinner",
   "version": "1.0.0",
   "description": "Pv Duc UI component in React",
   "author": "Pv Duc <pvduc.dev@gmail.com>",
@@ -7,8 +7,12 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "dependencies": {
+    "@pvduc/button": "1.0.0",
     "@react-aria/button": "^3.3.1",
-    "@react-aria/focus": "^3.4.1"
+    "@react-aria/dialog": "^3.1.4",
+    "@react-aria/focus": "^3.4.1",
+    "@react-aria/overlays": "^3.7.2",
+    "@react-stately/overlays": "^3.1.3"
   },
   "devDependencies": {
     "@react-types/button": "^3.3.1",

@@ -21,14 +21,18 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "import/export": [0],
     "max-len": [2, {
       "code": 200
     }],
-    "max-lines": [2, { "max": 200 }],
+    "max-lines": [1, { "max": 200 }],
+    "no-console": [0],
+    "semi": [2, "always"],
     "react/jsx-props-no-spreading": [0],
     "react/jsx-max-props-per-line": [2, { "maximum": 1 }],
     "react/jsx-indent-props": [2, 2],
     "react/jsx-first-prop-new-line": [2, "multiline"],
-    "react/jsx-closing-bracket-location": [2, "tag-aligned"]
+    "react/jsx-closing-bracket-location": [2, "tag-aligned"],
+    "import/prefer-default-export": [0]
   }
 }

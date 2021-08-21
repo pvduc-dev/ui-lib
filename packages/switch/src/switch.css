@@ -1,0 +1,19 @@
+.switch {
+  position: relative;
+  -webkit-appearance: none;
+  width: 48px;
+  height: 24px;
+  border-radius: 9999px;
+  background-color: #5e72e4;
+}
+
+.switch:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 22px;
+  height: 22px;
+  background-color: #FFF;
+  border-radius: 9999px;
+}
